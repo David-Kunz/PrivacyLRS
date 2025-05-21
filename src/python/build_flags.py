@@ -38,7 +38,6 @@ def print_warning(error):
     sys.stdout.write("\033[47;31m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n\n")
     sys.stdout.flush()
     time.sleep(3)
-    raise Exception('!!! %s !!!' % error)
 
 
 def dequote(str):
